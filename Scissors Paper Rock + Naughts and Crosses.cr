@@ -128,18 +128,12 @@ public class Program()
 			for (int e = 0; e < 3; e++) {
 				for (int i = 0; i < 3; i++) {
 					for (int j = 0; j < 3; j++) {
-						//Console.WriteLine(tttlist[i,j]);
 						if (tttlist[i,j] == nc) {
-							//Console.WriteLine("0 at [" + i + "," + j + "]");
-							//for (int k = 0; k < 8; k++) {
 							string check2 = i.ToString() + "," + j.ToString();
 							if (wincombos[k,e] == check2) {
-								//Console.WriteLine("gre");
 								check[e] = check2;
-								//Console.WriteLine(check[0] + check[1] + check[2]);
 								if (e == 2) {
 									string check3 = check[0] + check[1] + check[2];
-									//Console.WriteLine(check3);
 									if (check3 == wincombos[k,0] + wincombos[k,1] + wincombos[k,2]) {
 										if (nc == "X") {
 											TTTdraw(tttlist);
