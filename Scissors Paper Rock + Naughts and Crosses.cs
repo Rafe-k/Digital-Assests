@@ -217,7 +217,12 @@ public class Program()
 				Console.WriteLine();
 				Main();
 			}
-		} 
+		} else {
+			Console.WriteLine("You lose");
+			Console.WriteLine();
+			Console.WriteLine();
+			Main();
+		}
 	
 	}
 }
