@@ -113,7 +113,7 @@ public class Program()
 		// win combos starting with 01 (01,11,21)
 		// win combos starting with 02 (02,12,22), (02,11,20)
 		
-	string[,] wincombos = {{"00", "01", "02"},
+	string[,] wincombos = {{"0,0", "0,1", "0,2"},
 							   {"0,0", "1,0", "2,0"},
 							   {"0,0", "1,1", "2,2"},
 							   {"1,0", "1,1", "1,2"},
