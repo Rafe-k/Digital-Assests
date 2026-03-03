@@ -171,14 +171,17 @@ public class Program()
 				Console.WriteLine("It's a Draw");
 				Console.WriteLine();
 				Console.WriteLine();
+				Main();
 			} else if (randompick == 1){
 				Console.WriteLine("You Win");
 				Console.WriteLine();
 				Console.WriteLine();
+				Main();
 			} else if (randompick == 2){
 				Console.WriteLine("You Lose");
 				Console.WriteLine();
 				Console.WriteLine();
+				Main();
 			}
 		} else if (answer == "paper"){
 			if (randompick == 0){
